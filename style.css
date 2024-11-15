@@ -99,6 +99,10 @@ header {
         height : 100vh;
         justify-content: center;
         background: grey;
+        margin-top: -900px;
+    }
+    .mobile-menu {
+        margin-top: 0px;
     }
     .nav-links li {
         margin: 30px auto;
