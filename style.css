@@ -41,7 +41,7 @@ ul {
 header {
     width: 100vw;
     height: 100vh;
-    background-image:url("bg-1.jpg") ;
+    background-image:url("./images/bg-1.jpg") ;
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -74,7 +74,13 @@ header {
     border-radius: 30px;
     color: whitesmoke;
 }
-
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
 /* Responsive */
 
 /* Mobile device */
@@ -87,4 +93,14 @@ header {
         top: 30px;
         left: 30px;
     } 
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height : 100vh;
+        justify-content: center;
+        background: grey;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
 }
