@@ -269,6 +269,9 @@ img:hover {
 .btn:hover {
     background-color: whitesmoke;
     color: rgb(255, 1, 94);
-    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+li:hover {
+    color: ;
 }
 
