@@ -100,9 +100,12 @@ header {
         justify-content: center;
         background: rgb(105, 105, 105);
         margin-top: -900px;
+        transition: 0.5s ease;
     }
     .mobile-menu {
         margin-top: 0px;
+        border-bottom-right-radius: 30%;
+        
     }
     .nav-links li {
         margin: 30px auto;
