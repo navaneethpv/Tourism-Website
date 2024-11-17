@@ -266,7 +266,7 @@ body , html {
     }
     .nav-links li {
         margin: 30px auto;
-        font-size: 4vmin;
+        font-size: 5vmin;
     }
     /*Events*/
     .row {
@@ -297,7 +297,6 @@ body , html {
         font-size:4vmin ;
         font-family: 'Courier New', Courier, monospace;
     }
-
 }
 
 /*Animations*/
