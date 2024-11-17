@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ga+Maamli&family=Pacifico&family=Righteous&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,9 @@ ul {
 .logo {
     font-size: 4vmin;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .navbar {
     position: absolute;
@@ -62,6 +66,12 @@ header {
 }
 .header-content h2 {
     font-size: 4vmin;
+    
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
 }
 .line{
     width: 150px;
@@ -71,9 +81,12 @@ header {
     border-radius: 5px;
 }
 .header-content h1 {
-    font-size: 7vmin;
+    font-size: 10vmin;
     margin-top: 50px;
     margin-bottom: 30px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .btn {
     padding: 8px 15px;
@@ -110,6 +123,12 @@ section {
     align-items: center;
     
 }
+.events h1 {
+    font-size: 7vmin;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .events .row {
     margin-top: 50px;
 }
@@ -121,6 +140,10 @@ h4 {
 p {
     color: #075c4e;
     padding: 0px 40px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 3px;
+    font-style: normal;
 }
 .events .btn {
     margin: 30px;
@@ -148,6 +171,9 @@ body , html {
 }
 .explore-content h1 {
     font-size: 7vmin;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .explore-content .line {
     margin-bottom: 50px;
@@ -177,9 +203,13 @@ body , html {
 .content-col h1 {
     font-size: 7vmin;
     color: #4886b9;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .content-col .line {
-    margin-left: -1px;
+    margin-left: 65px;
 }
 .content-col p {
     padding: 0;
@@ -200,6 +230,7 @@ body , html {
     color:whitesmoke;
     margin: 20px auto;
     padding: 20px auto; 
+    font-family: 'Courier New', Courier, monospace;
 
 }
 /* Responsive */
@@ -261,6 +292,8 @@ body , html {
     }
     .footer {
         padding: 10px;
+        font-size:4vmin ;
+        font-family: 'Courier New', Courier, monospace;
     }
 
 }
